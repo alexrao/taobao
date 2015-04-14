@@ -1,6 +1,6 @@
 // file name: dprintf.c
 // CreateTime: 2015.04.14
-// Writer   : rxp 
+// Author    : rxp 
 // introduce: print string of color
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 
 //-------------------------------------------------------------------------
 // Function : dprintf_impl 
-// Writer   : rxp 
+// Author   : rxp 
 // time     : 2015-4-14 
 // function : print console with color message;Detail with file name/line/
 //			 function name and afferent content of string

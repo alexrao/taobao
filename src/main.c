@@ -7,7 +7,7 @@
 
 //-------------------------------------------------------------------------
 // Function : main 
-// Writer   : rxp 
+// Author   : rxp 
 // Time     : 2015-4-14 
 // Feature  : main function 
 // Input Key: 
