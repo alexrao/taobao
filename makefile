@@ -7,7 +7,7 @@ CFLAGS += -I$(LOCAL_PWD)/include
 CFLAGS += -g 
 CFLAGS += -std=c99
 
-SOURCE := main.c dprintf.c
+SOURCE := src/main.c src/dprintf.c
 
 OBJS = $(patsubst %.c,%.o,$(SOURCE))
 
@@ -26,5 +26,6 @@ $(APPLICATION): $(OBJS)
 	@echo [Compile $^ ...]	
 	$(Q_)$(CC) $(CFLAGS) -c $^ -o $@
 clean:
-	rm *.o -f
+	rm src/*.o -f 
+	rm main
 	
