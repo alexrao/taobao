@@ -34,6 +34,7 @@ void main(void)
 	sprintf(path, "new_%s",CVS_FILE_PATH);
 	fp_w = fopen(path,"rw+");
 
+	// read and select to write
 	do
 	{
 		memset(rbuf, 0, sizeof(rbuf));
